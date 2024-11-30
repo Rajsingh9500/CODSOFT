@@ -1,14 +1,24 @@
 .talk {
 
 
-    padding: 5px 30px 5px 30px;
-    border-radius: 20px;
-    border: 1px solid gray;
+  /*   padding: 5px 30px 5px 30px;
+    border-radius: 20px; */
+  /*   border: 1px solid gray; */
     cursor: pointer;
   font-size: 20px;
 }
 
-
+.navbar{
+  
+    height: 130px;
+    background-color:#fff;
+position: fixed;
+   align-items: center;
+ margin-top: 10px;
+   
+ padding-top: 50px;
+   justify-content: space-evenly;
+}
 
 
 
@@ -24,7 +34,7 @@
     
 
 
-    width: 590px;
+ 
     justify-content: space-between;
    
     a{
@@ -46,14 +56,14 @@
        background-color: whitesmoke;
        box-shadow: 1px 2px 5px #fff;
      
-       transition: all 1s;
+       transition: all 2s;
      
     }
 
 }
 
 .c2 {
-    width: 600px;
+  
 
     text-align: center;
     justify-content: center;
@@ -146,10 +156,11 @@
 justify-content: center;
     background-size: cover;
     align-items: center;
+     margin-top: 50px;
 }
 
 .info {
-    margin-top: 20px;
+    padding-top: 120px;
 }
 .info .icons {
     margin-top: 20px;
@@ -224,28 +235,33 @@ justify-content: center;
 }
 
 .pr-img1 {
-    background: url(../img/pr1.png);
-    height: 350px;
-    background-size: contain;
+    background: url(../img/astro-femprish.png);
+    height: 400px;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-left: -20px;
+    border-radius: 15px;
+    margin-bottom: 10px;
 
 }
 
 .pr-img2 {
-    background: url(../img/pr2.png);
-    height: 350px;
-    background-size: contain;
+    background: url(../img/ecommerce.png);
+    height: 400px;
+    background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-bottom: 10px;
     /*  margin-left: -20px; */
 }
 
 .pr-img3 {
-    background: url(../img/pr3.png);
-    height: 400px;
-    background-size: contain;
+    background: url(../img/image.png);
+    height: 500px;
+    background-size: cover;
     background-repeat: no-repeat;
-    margin-left: -40px;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 /* .pr-btn {
@@ -264,14 +280,14 @@ justify-content: center;
 .xtxt {
     display: flex;
     justify-content: space-between;
-    width: 550px;
+    /* width: 550px; */
 
 }
 
 .xtxt1 {
     display: flex;
     justify-content: space-between;
-    width: 550px;
+ /*    width: 550px; */
     margin-left: 20px;
 
 }
@@ -351,7 +367,7 @@ justify-content: center;
 }
 
 .lt-img2 {
-    background: url(../img/movie.png);
+    background: url(../img/image.png);
     height: 200px;
     width: 320px;
     border-radius: 15px;
@@ -422,7 +438,8 @@ align-items: center;
 .logo {
     display: flex;
     justify-content: space-between;
-    width: 480px;
+    width: 450px;
+
 }
 
 
@@ -467,9 +484,28 @@ align-items: center;
 }
 }
 
+#card{
+height: 150px;
+width: 150px;
+background-color: #fff;
+box-shadow: 2px 2px 5px gray;
+display:none;
+}
 
 @media(max-width:720px)
 {
+    .navbar{
+
+    background-color:#fff;
+
+    justify-content: space-between;
+   align-items: center;
+    position:  fixed;
+padding-top: 30px;
+
+ 
+}
+
    .row2 .btn_b{
     margin-top: 20px;
  
@@ -484,23 +520,23 @@ align-items: center;
     margin-top: 20px;
     margin-left: 10px;
 .fa-facebook{
-    font-size: 35px;
+    font-size: 30px;
     color: black;
 }
 .fa-instagram{
-    font-size: 35px;
+    font-size: 30px;
     color: black;
 }
 .fa-linkedin{
-    font-size: 35px;
+    font-size: 30px;
     color: black;
 }
 .fa-twitter{
-    font-size: 35px;
+    font-size: 30px;
     color: black;
 }
 .fa-github{
-    font-size: 35px;
+    font-size: 30px;
     color: black;
 }
     .fa-facebook:hover{
@@ -531,8 +567,83 @@ align-items: center;
     }
 }
 
+
+
+
+}
+.con{
+    height: 600px;
+    .inf{
+        margin-top: 20px;
+        p{
+            font-size: 18px;
+        font-weight:500;
+        margin-top: 15px;
+        margin-left: 10px;
+        }
+    }
+    .inf .data{
+        height: 70px;
+        width: 70px;
+        border: 2px solid black;
+        border-radius: 50%;
+text-align: center;
+
+    padding-top: 20px;
+       .fa-phone{
+        font-size: 20px;
+
+       } 
+       .fa-envelope{
+        font-size: 20px;
+       }
+       .fa-location-dot{
+        font-size: 20px;
+       }
+    }
+
+}
+.con input{
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+  
+    border-radius: 10px;
+}
+.con1{
+    background-color: rgb(206, 193, 193);
+ justify-content: center;
+
+
+   height: 400px;
+   border-radius: 20px;
+   padding-top: 30px;
+
+
+
+  
+.col-lg-12
+{
+  
+    margin-top: 10px;
+ 
+    justify-content: center;
+    align-items: center;
+}
+.submit{
+
+input{
+    width: 120px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 20px;
+   
+   
+}
 }
 
+
+}
 .r1 .navicon{
     padding-right: 1.5rem;
     cursor: pointer;
@@ -560,7 +671,9 @@ align-items: center;
 }
 
 @media (min-width:600px){
-    .navbar{
+ 
+    .navbar
+    {
         justify-content: space-around;
     }
   
@@ -586,13 +699,15 @@ align-items: center;
    .talk {
 
 
-    padding: 5px 15px 5px 15px;
+/*     padding: 5px 15px 5px 15px;
     border-radius: 20px;
-    border: 1px solid gray;
+    border: 1px solid gray; */
     cursor: pointer;
   font-size: 20px;
 }
 .r1 .nav-menu {
+
+    width: 660px;
    }
     .head{
 
@@ -607,3 +722,6 @@ align-items: center;
 
 
    
+
+
+ 
