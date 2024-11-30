@@ -492,7 +492,7 @@ box-shadow: 2px 2px 5px gray;
 display:none;
 }
 
-@media(max-width:720px)
+@media(max-width:600px)
 {
     .navbar{
 
@@ -506,6 +506,18 @@ padding-top: 30px;
  
 }
 
+.icons{
+    width: 350px;
+}
+.con1{
+    width: 450px;
+    
+}
+.con{
+    input{
+        width: 200px;
+    }
+}
    .row2 .btn_b{
     margin-top: 20px;
  
@@ -612,7 +624,7 @@ text-align: center;
 }
 .con1{
     background-color: rgb(206, 193, 193);
- justify-content: center;
+
 
 
    height: 400px;
