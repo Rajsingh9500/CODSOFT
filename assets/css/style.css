@@ -1,4 +1,6 @@
-
+.sec_a{
+    padding: 5px;
+}
 .talk {
 
 
@@ -58,6 +60,7 @@ padding-bottom: -50px;
         margin-top:0px;
      height:80px;
         position: fixed;
+        padding-left: 20px;
     }
 
     .nav-menu {
