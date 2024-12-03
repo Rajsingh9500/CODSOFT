@@ -92,7 +92,7 @@ padding-bottom: -50px;
         -webkit-background-clip: text;
       
     } */
-   
+  
 }
 
     .row2 {
@@ -157,7 +157,7 @@ padding-bottom: -50px;
   justify-content: center;
       background-size: cover;
       align-items: center;
-       margin-top: 50px;
+       margin-top: 10px;
   }
   
   .info {
@@ -352,7 +352,7 @@ padding-bottom: -50px;
   }
   
   .lt-img4 {
-      background: url(../img/event.png);
+      background: url(../img/login.jpg);
       height: 250px;
    
       border-radius: 15px;
